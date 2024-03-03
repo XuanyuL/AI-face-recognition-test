@@ -9,7 +9,7 @@ let trainButtun;
 
 function modelReady(){
   console.log('Model is ready!');
-  classifier.load('model.json', customModelReady);
+  classifier.load('https://raw.githubusercontent.com/XuanyuL/AI-face-recognition-test/main/model.weights.bin', customModelReady);
 }
 
 function customModelReady(){
