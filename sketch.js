@@ -47,7 +47,8 @@ function draw(){
   image(video,0,0,320,280);
   fill(255);
   textSize(16);
-  text(label,10,height-10)
+  document.getElementById('label').innerText = label;
+
 
 }
 
